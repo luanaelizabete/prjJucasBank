@@ -1,0 +1,9 @@
+C:\Users\lucas\OneDrive\Área de Trabalho\slnJucasBank\prjJucasBank\obj\Debug\net6.0-windows\prjJucasBank.Properties.Resources.resources
+C:\Users\lucas\OneDrive\Área de Trabalho\slnJucasBank\prjJucasBank\obj\Debug\net6.0-windows\PrjtAula01.TelaCadastro.resources
+C:\Users\lucas\OneDrive\Área de Trabalho\slnJucasBank\prjJucasBank\obj\Debug\net6.0-windows\prjJucasBank.Form1.resources
+C:\Users\lucas\OneDrive\Área de Trabalho\slnJucasBank\prjJucasBank\obj\Debug\net6.0-windows\prjJucasBank.TelaLoginBanco.resources
+C:\Users\lucas\OneDrive\Área de Trabalho\slnJucasBank\prjJucasBank\obj\Debug\net6.0-windows\prjJucasBank.csproj.GenerateResource.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\slnJucasBank\prjJucasBank\obj\Debug\net6.0-windows\prjJucasBank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\OneDrive\Área de Trabalho\slnJucasBank\prjJucasBank\obj\Debug\net6.0-windows\prjJucasBank.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\slnJucasBank\prjJucasBank\obj\Debug\net6.0-windows\prjJucasBank.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Área de Trabalho\slnJucasBank\prjJucasBank\obj\Debug\net6.0-windows\prjJucasBank.csproj.CoreCompileInputs.cache
