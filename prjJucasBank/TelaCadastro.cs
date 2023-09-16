@@ -1,15 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Configuration;
+﻿using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace PrjtAula01
 {
@@ -65,7 +56,7 @@ namespace PrjtAula01
                 if (txtSenhaCadastro.Text == txtSenhaConfirmaCadastro.Text)
                 {
                     SqlConnection conexao =
-                           new SqlConnection(ConfigurationManager.ConnectionStrings["PrjtAula01.Properties.Settings.strConexao"].ToString());
+                    new SqlConnection(ConfigurationManager.ConnectionStrings["prjJucasBank.Properties.Settings.strConexao"].ToString());
 
                     //Criando um comando
                     SqlCommand cmd = new SqlCommand();
@@ -86,7 +77,7 @@ namespace PrjtAula01
                     cmd.Parameters.AddWithValue("Uf", cbUf.Text);
                     cmd.Parameters.AddWithValue("Cep", txtCepCadastro.Text);
                     cmd.Parameters.AddWithValue("Endereco", txtEnderecoCadastro.Text);
-                    cmd.Parameters.AddWithValue("numEndereco", txtNumEnderecoCadastro.Text);
+                    cmd.Parameters.AddWithValue("numeroEndereco", txtNumEnderecoCadastro.Text);
                     cmd.Parameters.AddWithValue("Cpf", txtCpfCadastro.Text);
                     cmd.Parameters.AddWithValue("Rg", txtRgCadastro.Text);
                     cmd.Parameters.AddWithValue("Renda", txtRendaCadastro.Text);

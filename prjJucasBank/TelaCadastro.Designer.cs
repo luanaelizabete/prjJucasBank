@@ -34,9 +34,9 @@
             txtRgCadastro = new TextBox();
             txtCelularCadastro = new TextBox();
             txtEmailCadastro = new TextBox();
-            txtRendaCadastro = new TextBox();
-            txtCepCadastro = new TextBox();
             txtGeneroCadastro = new TextBox();
+            txtCepCadastro = new TextBox();
+            txtRendaCadastro = new TextBox();
             btnCriarAcesso = new Button();
             btnRetornarCadastro = new Button();
             lblInserirDadosCadastro = new Label();
@@ -45,8 +45,8 @@
             txtNumEnderecoCadastro = new TextBox();
             cbUf = new ComboBox();
             dtpNascimentoCadastro = new DateTimePicker();
-            txtSenhaConfirmaCadastro = new TextBox();
             txtSenhaCadastro = new TextBox();
+            txtSenhaConfirmaCadastro = new TextBox();
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -104,16 +104,15 @@
             txtEmailCadastro.TabIndex = 4;
             txtEmailCadastro.TextAlign = HorizontalAlignment.Center;
             // 
-            // txtRendaCadastro
+            // txtGeneroCadastro
             // 
-            txtRendaCadastro.Font = new Font("Lucida Bright", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            txtRendaCadastro.Location = new Point(821, 231);
-            txtRendaCadastro.Name = "txtRendaCadastro";
-            txtRendaCadastro.PlaceholderText = "Insira sua renda ";
-            txtRendaCadastro.Size = new Size(300, 26);
-            txtRendaCadastro.TabIndex = 12;
-            txtRendaCadastro.TextAlign = HorizontalAlignment.Center;
-            txtRendaCadastro.TextChanged += TxtRendaCadastro_TextChanged;
+            txtGeneroCadastro.Font = new Font("Lucida Bright", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtGeneroCadastro.Location = new Point(60, 325);
+            txtGeneroCadastro.Name = "txtGeneroCadastro";
+            txtGeneroCadastro.PlaceholderText = "Gênero";
+            txtGeneroCadastro.Size = new Size(300, 26);
+            txtGeneroCadastro.TabIndex = 6;
+            txtGeneroCadastro.TextAlign = HorizontalAlignment.Center;
             // 
             // txtCepCadastro
             // 
@@ -125,15 +124,16 @@
             txtCepCadastro.TabIndex = 7;
             txtCepCadastro.TextAlign = HorizontalAlignment.Center;
             // 
-            // txtGeneroCadastro
+            // txtRendaCadastro
             // 
-            txtGeneroCadastro.Font = new Font("Lucida Bright", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            txtGeneroCadastro.Location = new Point(60, 325);
-            txtGeneroCadastro.Name = "txtGeneroCadastro";
-            txtGeneroCadastro.PlaceholderText = "Gênero";
-            txtGeneroCadastro.Size = new Size(300, 26);
-            txtGeneroCadastro.TabIndex = 6;
-            txtGeneroCadastro.TextAlign = HorizontalAlignment.Center;
+            txtRendaCadastro.Font = new Font("Lucida Bright", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtRendaCadastro.Location = new Point(821, 231);
+            txtRendaCadastro.Name = "txtRendaCadastro";
+            txtRendaCadastro.PlaceholderText = "Insira sua renda ";
+            txtRendaCadastro.Size = new Size(300, 26);
+            txtRendaCadastro.TabIndex = 12;
+            txtRendaCadastro.TextAlign = HorizontalAlignment.Center;
+            txtRendaCadastro.TextChanged += TxtRendaCadastro_TextChanged;
             // 
             // btnCriarAcesso
             // 
@@ -151,7 +151,7 @@
             // 
             btnRetornarCadastro.BackColor = Color.White;
             btnRetornarCadastro.Font = new Font("Lucida Bright", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            btnRetornarCadastro.Location = new Point(60, 401);
+            btnRetornarCadastro.Location = new Point(60, 450);
             btnRetornarCadastro.Name = "btnRetornarCadastro";
             btnRetornarCadastro.Size = new Size(158, 35);
             btnRetornarCadastro.TabIndex = 17;
@@ -225,16 +225,6 @@
             dtpNascimentoCadastro.Size = new Size(300, 26);
             dtpNascimentoCadastro.TabIndex = 5;
             // 
-            // txtSenhaConfirmaCadastro
-            // 
-            txtSenhaConfirmaCadastro.Font = new Font("Lucida Bright", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            txtSenhaConfirmaCadastro.Location = new Point(821, 385);
-            txtSenhaConfirmaCadastro.Name = "txtSenhaConfirmaCadastro";
-            txtSenhaConfirmaCadastro.PlaceholderText = "Confirme sua senha";
-            txtSenhaConfirmaCadastro.Size = new Size(300, 26);
-            txtSenhaConfirmaCadastro.TabIndex = 23;
-            txtSenhaConfirmaCadastro.TextAlign = HorizontalAlignment.Center;
-            // 
             // txtSenhaCadastro
             // 
             txtSenhaCadastro.Font = new Font("Lucida Bright", 12F, FontStyle.Regular, GraphicsUnit.Point);
@@ -244,6 +234,16 @@
             txtSenhaCadastro.Size = new Size(300, 26);
             txtSenhaCadastro.TabIndex = 22;
             txtSenhaCadastro.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txtSenhaConfirmaCadastro
+            // 
+            txtSenhaConfirmaCadastro.Font = new Font("Lucida Bright", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtSenhaConfirmaCadastro.Location = new Point(821, 385);
+            txtSenhaConfirmaCadastro.Name = "txtSenhaConfirmaCadastro";
+            txtSenhaConfirmaCadastro.PlaceholderText = "Confirme sua senha";
+            txtSenhaConfirmaCadastro.Size = new Size(300, 26);
+            txtSenhaConfirmaCadastro.TabIndex = 23;
+            txtSenhaConfirmaCadastro.TextAlign = HorizontalAlignment.Center;
             // 
             // pictureBox2
             // 
@@ -311,9 +311,9 @@
         private TextBox txtRgCadastro;
         private TextBox txtCelularCadastro;
         private TextBox txtEmailCadastro;
-        private TextBox txtRendaCadastro;
-        private TextBox txtCepCadastro;
         private TextBox txtGeneroCadastro;
+        private TextBox txtCepCadastro;
+        private TextBox txtRendaCadastro;
         private Button btnCriarAcesso;
         private Button btnRetornarCadastro;
         private Label lblInserirDadosCadastro;
@@ -322,8 +322,8 @@
         private TextBox txtNumEnderecoCadastro;
         private ComboBox cbUf;
         private DateTimePicker dtpNascimentoCadastro;
-        private TextBox txtSenhaConfirmaCadastro;
         private TextBox txtSenhaCadastro;
+        private TextBox txtSenhaConfirmaCadastro;
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
     }

@@ -94,7 +94,7 @@
             lblValorDeposito.AutoSize = true;
             lblValorDeposito.Font = new Font("Lucida Bright", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             lblValorDeposito.ForeColor = Color.DarkOrchid;
-            lblValorDeposito.Location = new Point(718, 211);
+            lblValorDeposito.Location = new Point(663, 200);
             lblValorDeposito.Name = "lblValorDeposito";
             lblValorDeposito.Size = new Size(421, 32);
             lblValorDeposito.TabIndex = 62;
@@ -115,7 +115,7 @@
             // 
             txtNomeDestino.BackColor = Color.White;
             txtNomeDestino.Font = new Font("Lucida Bright", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            txtNomeDestino.Location = new Point(779, 143);
+            txtNomeDestino.Location = new Point(766, 144);
             txtNomeDestino.Name = "txtNomeDestino";
             txtNomeDestino.PlaceholderText = "CPF do usuário de destino";
             txtNomeDestino.Size = new Size(300, 28);

@@ -49,6 +49,7 @@ namespace prjJucasBank
 
         private void lblSaldoVal_Click(object sender, EventArgs e)
         {
+
         }
 
         private void pagarTransferir_Click(object sender, EventArgs e)
@@ -61,15 +62,12 @@ namespace prjJucasBank
 
         private void sacar_Click(object sender, EventArgs e)
         {
+
         }
 
         private void depositar_Click(object sender, EventArgs e)
         {
-            TelaDeposito TelaDeposito = new TelaDeposito();
-            TelaMenu TelaMenu = new TelaMenu();
 
-            //usando metodo show
-            TelaDeposito.Show(this);
         }
 
         private void sairMenu_Click(object sender, EventArgs e)

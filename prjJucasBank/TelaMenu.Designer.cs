@@ -122,7 +122,7 @@
             // 
             btnSair.BackColor = Color.White;
             btnSair.Font = new Font("Lucida Bright", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            btnSair.Location = new Point(752, 436);
+            btnSair.Location = new Point(873, 436);
             btnSair.Name = "btnSair";
             btnSair.Size = new Size(133, 42);
             btnSair.TabIndex = 21;
@@ -182,7 +182,7 @@
             // 
             btnConfiguracoes.BackColor = Color.White;
             btnConfiguracoes.Font = new Font("Lucida Bright", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            btnConfiguracoes.Location = new Point(682, 351);
+            btnConfiguracoes.Location = new Point(803, 342);
             btnConfiguracoes.Name = "btnConfiguracoes";
             btnConfiguracoes.Size = new Size(203, 51);
             btnConfiguracoes.TabIndex = 15;
@@ -198,7 +198,7 @@
             extratoLista.FormattingEnabled = true;
             extratoLista.ItemHeight = 23;
             extratoLista.Items.AddRange(new object[] { "      ( mostrar extrato em lista )", "", "      ( mostrar extrato em lista )", "", "      ( mostrar extrato em lista )", "", "      ( mostrar extrato em lista )" });
-            extratoLista.Location = new Point(542, 51);
+            extratoLista.Location = new Point(663, 47);
             extratoLista.Name = "extratoLista";
             extratoLista.Size = new Size(343, 257);
             extratoLista.TabIndex = 14;

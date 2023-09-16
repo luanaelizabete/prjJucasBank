@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lucas\\.nuget\\packages\\": {}
+    "C:\\Users\\luana.eoalima\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\slnJucasBank\\TelaDeposito\\TelaDeposito2\\TelaDeposito2.csproj",
-      "projectName": "TelaDeposito2",
-      "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\slnJucasBank\\TelaDeposito\\TelaDeposito2\\TelaDeposito2.csproj",
-      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\slnJucasBank\\TelaDeposito\\TelaDeposito2\\obj\\",
+      "projectUniqueName": "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\Config.csproj",
+      "projectName": "Config",
+      "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\Config.csproj",
+      "packagesPath": "C:\\Users\\luana.eoalima\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\luana.eoalima\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

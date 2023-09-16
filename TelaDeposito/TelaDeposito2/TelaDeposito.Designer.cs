@@ -32,14 +32,14 @@
             pictureBox1 = new PictureBox();
             lblDepositoConfirmado = new Label();
             lblVoltarDeposito = new Button();
-            btConfirmarDeposito = new Button();
+            btnConfirmarDeposito = new Button();
             lblValorDeposito = new Label();
             txtValorDeposito = new TextBox();
-            txtIdentificacao = new TextBox();
-            txtNomeDestino = new TextBox();
-            txtNumConta = new TextBox();
-            txtAgencia = new TextBox();
-            lblSaldoVal = new Label();
+            txtNome = new TextBox();
+            txtRecebedor = new TextBox();
+            txtContaDestino = new TextBox();
+            txtAgenciaDestino = new TextBox();
+            lblValorSaldo = new Label();
             lblSaldo = new Label();
             lblDeposito = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -80,17 +80,17 @@
             lblVoltarDeposito.Text = "Voltar";
             lblVoltarDeposito.UseVisualStyleBackColor = false;
             // 
-            // btConfirmarDeposito
+            // btnConfirmarDeposito
             // 
-            btConfirmarDeposito.BackColor = Color.White;
-            btConfirmarDeposito.Font = new Font("Lucida Bright", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            btConfirmarDeposito.ForeColor = Color.Black;
-            btConfirmarDeposito.Location = new Point(812, 279);
-            btConfirmarDeposito.Name = "btConfirmarDeposito";
-            btConfirmarDeposito.Size = new Size(300, 48);
-            btConfirmarDeposito.TabIndex = 57;
-            btConfirmarDeposito.Text = "Confirmar depósito";
-            btConfirmarDeposito.UseVisualStyleBackColor = false;
+            btnConfirmarDeposito.BackColor = Color.White;
+            btnConfirmarDeposito.Font = new Font("Lucida Bright", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            btnConfirmarDeposito.ForeColor = Color.Black;
+            btnConfirmarDeposito.Location = new Point(812, 279);
+            btnConfirmarDeposito.Name = "btnConfirmarDeposito";
+            btnConfirmarDeposito.Size = new Size(300, 48);
+            btnConfirmarDeposito.TabIndex = 57;
+            btnConfirmarDeposito.Text = "Confirmar depósito";
+            btnConfirmarDeposito.UseVisualStyleBackColor = false;
             // 
             // lblValorDeposito
             // 
@@ -114,60 +114,60 @@
             txtValorDeposito.TabIndex = 56;
             txtValorDeposito.TextAlign = HorizontalAlignment.Center;
             // 
-            // txtIdentificacao
+            // txtNome
             // 
-            txtIdentificacao.BackColor = Color.White;
-            txtIdentificacao.Font = new Font("Lucida Bright", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            txtIdentificacao.Location = new Point(812, 217);
-            txtIdentificacao.Name = "txtIdentificacao";
-            txtIdentificacao.PlaceholderText = "Seu nome";
-            txtIdentificacao.Size = new Size(300, 28);
-            txtIdentificacao.TabIndex = 55;
-            txtIdentificacao.TextAlign = HorizontalAlignment.Center;
+            txtNome.BackColor = Color.White;
+            txtNome.Font = new Font("Lucida Bright", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            txtNome.Location = new Point(812, 217);
+            txtNome.Name = "txtNome";
+            txtNome.PlaceholderText = "Seu nome";
+            txtNome.Size = new Size(300, 28);
+            txtNome.TabIndex = 55;
+            txtNome.TextAlign = HorizontalAlignment.Center;
             // 
-            // txtNomeDestino
+            // txtRecebedor
             // 
-            txtNomeDestino.BackColor = Color.White;
-            txtNomeDestino.Font = new Font("Lucida Bright", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            txtNomeDestino.Location = new Point(812, 60);
-            txtNomeDestino.Name = "txtNomeDestino";
-            txtNomeDestino.PlaceholderText = "Quem vai receber ?";
-            txtNomeDestino.Size = new Size(300, 28);
-            txtNomeDestino.TabIndex = 54;
-            txtNomeDestino.TextAlign = HorizontalAlignment.Center;
+            txtRecebedor.BackColor = Color.White;
+            txtRecebedor.Font = new Font("Lucida Bright", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            txtRecebedor.Location = new Point(812, 60);
+            txtRecebedor.Name = "txtRecebedor";
+            txtRecebedor.PlaceholderText = "Quem vai receber ?";
+            txtRecebedor.Size = new Size(300, 28);
+            txtRecebedor.TabIndex = 54;
+            txtRecebedor.TextAlign = HorizontalAlignment.Center;
             // 
-            // txtNumConta
+            // txtContaDestino
             // 
-            txtNumConta.BackColor = Color.White;
-            txtNumConta.Font = new Font("Lucida Bright", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            txtNumConta.Location = new Point(812, 166);
-            txtNumConta.Name = "txtNumConta";
-            txtNumConta.PlaceholderText = "Conta de destino";
-            txtNumConta.Size = new Size(300, 28);
-            txtNumConta.TabIndex = 53;
-            txtNumConta.TextAlign = HorizontalAlignment.Center;
+            txtContaDestino.BackColor = Color.White;
+            txtContaDestino.Font = new Font("Lucida Bright", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            txtContaDestino.Location = new Point(812, 166);
+            txtContaDestino.Name = "txtContaDestino";
+            txtContaDestino.PlaceholderText = "Conta de destino";
+            txtContaDestino.Size = new Size(300, 28);
+            txtContaDestino.TabIndex = 53;
+            txtContaDestino.TextAlign = HorizontalAlignment.Center;
             // 
-            // txtAgencia
+            // txtAgenciaDestino
             // 
-            txtAgencia.BackColor = Color.White;
-            txtAgencia.Font = new Font("Lucida Bright", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            txtAgencia.Location = new Point(812, 118);
-            txtAgencia.Name = "txtAgencia";
-            txtAgencia.PlaceholderText = "Agência de destino";
-            txtAgencia.Size = new Size(300, 28);
-            txtAgencia.TabIndex = 52;
-            txtAgencia.TextAlign = HorizontalAlignment.Center;
+            txtAgenciaDestino.BackColor = Color.White;
+            txtAgenciaDestino.Font = new Font("Lucida Bright", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            txtAgenciaDestino.Location = new Point(812, 118);
+            txtAgenciaDestino.Name = "txtAgenciaDestino";
+            txtAgenciaDestino.PlaceholderText = "Agência de destino";
+            txtAgenciaDestino.Size = new Size(300, 28);
+            txtAgenciaDestino.TabIndex = 52;
+            txtAgenciaDestino.TextAlign = HorizontalAlignment.Center;
             // 
-            // lblSaldoVal
+            // lblValorSaldo
             // 
-            lblSaldoVal.AutoSize = true;
-            lblSaldoVal.Font = new Font("Lucida Bright", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            lblSaldoVal.ForeColor = Color.DarkOrchid;
-            lblSaldoVal.Location = new Point(145, 163);
-            lblSaldoVal.Name = "lblSaldoVal";
-            lblSaldoVal.Size = new Size(127, 32);
-            lblSaldoVal.TabIndex = 61;
-            lblSaldoVal.Text = "R$ 50,33";
+            lblValorSaldo.AutoSize = true;
+            lblValorSaldo.Font = new Font("Lucida Bright", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblValorSaldo.ForeColor = Color.DarkOrchid;
+            lblValorSaldo.Location = new Point(145, 163);
+            lblValorSaldo.Name = "lblValorSaldo";
+            lblValorSaldo.Size = new Size(127, 32);
+            lblValorSaldo.TabIndex = 61;
+            lblValorSaldo.Text = "R$ 50,33";
             // 
             // lblSaldo
             // 
@@ -200,14 +200,14 @@
             Controls.Add(pictureBox1);
             Controls.Add(lblDepositoConfirmado);
             Controls.Add(lblVoltarDeposito);
-            Controls.Add(btConfirmarDeposito);
+            Controls.Add(btnConfirmarDeposito);
             Controls.Add(lblValorDeposito);
             Controls.Add(txtValorDeposito);
-            Controls.Add(txtIdentificacao);
-            Controls.Add(txtNomeDestino);
-            Controls.Add(txtNumConta);
-            Controls.Add(txtAgencia);
-            Controls.Add(lblSaldoVal);
+            Controls.Add(txtNome);
+            Controls.Add(txtRecebedor);
+            Controls.Add(txtContaDestino);
+            Controls.Add(txtAgenciaDestino);
+            Controls.Add(lblValorSaldo);
             Controls.Add(lblSaldo);
             Controls.Add(lblDeposito);
             Name = "Form1";
@@ -222,14 +222,14 @@
         private PictureBox pictureBox1;
         private Label lblDepositoConfirmado;
         private Button lblVoltarDeposito;
-        private Button btConfirmarDeposito;
+        private Button btnConfirmarDeposito;
         private Label lblValorDeposito;
         private TextBox txtValorDeposito;
-        private TextBox txtIdentificacao;
-        private TextBox txtNomeDestino;
-        private TextBox txtNumConta;
-        private TextBox txtAgencia;
-        private Label lblSaldoVal;
+        private TextBox txtNome;
+        private TextBox txtRecebedor;
+        private TextBox txtContaDestino;
+        private TextBox txtAgenciaDestino;
+        private Label lblValorSaldo;
         private Label lblSaldo;
         private Label lblDeposito;
     }

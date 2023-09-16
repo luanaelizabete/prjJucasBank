@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "gyQtPpemiX1SsUvNRt6tfYWJpl+VLPpHPb6Z9zZlkf2R+jwnKJJ7PP8I7BBhItXtTczW9Yj64gdV3gJm6CLZfQ==",
+  "dgSpecHash": "P0mhJdP3QohFqdTKoKjimhMGN0k9ZcT6PeRZe/Edwixu+QgoxNHIChZFhja8K+Gqohjps8v2Uxc8SAbo6+h5WA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\slnJucasBank\\prjJucasBank\\prjJucasBank.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luana.eoalima\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\luana.eoalima\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\luana.eoalima\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\luana.eoalima\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\luana.eoalima\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\luana.eoalima\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\luana.eoalima\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
+    "C:\\Users\\luana.eoalima\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\luana.eoalima\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
