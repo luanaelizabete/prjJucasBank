@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj": {}
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\DTO\\DTO.csproj": {
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\DTO\\DTO.csproj",
-        "packagesPath": "C:\\Users\\luana.eoalima\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\DTO\\obj\\",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\luana.eoalima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,21 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj": {
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj",
         "projectName": "prjJucasBank",
-        "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj",
-        "packagesPath": "C:\\Users\\luana.eoalima\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\prjJucasBank\\obj\\",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\prjJucasBank\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\luana.eoalima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +83,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\DTO\\DTO.csproj"
+              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\DTO\\DTO.csproj"
               }
             }
           }
@@ -99,6 +99,10 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.5, )"
@@ -123,7 +127,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

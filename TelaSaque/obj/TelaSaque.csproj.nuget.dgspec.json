@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\TelaSaque\\TelaSaque.csproj": {}
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\TelaSaque\\TelaSaque.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\TelaSaque\\TelaSaque.csproj": {
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\TelaSaque\\TelaSaque.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\TelaSaque\\TelaSaque.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\TelaSaque\\TelaSaque.csproj",
         "projectName": "TelaSaque",
-        "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\TelaSaque\\TelaSaque.csproj",
-        "packagesPath": "C:\\Users\\luana.eoalima\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luana.eoalima\\source\\repos\\Prj2022\\prjJucasBank\\TelaSaque\\obj\\",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\TelaSaque\\TelaSaque.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\TelaSaque\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\luana.eoalima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

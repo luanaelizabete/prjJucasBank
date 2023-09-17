@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:workstationid=BancoJukas.mssql.somee.com;packetsize=4096;userid=lluaEliza_SQLLogin_1;pwd=Lugra1124;datasource=BancoJukas.mssql.somee.com;persistsecurityinfo=False;initialcatalog=BancoJukas",
+      "dynamicId": null
+    }
+  }
+}

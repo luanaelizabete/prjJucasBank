@@ -37,7 +37,7 @@
             txtEnderecoCadastro = new TextBox();
             lblInserirDadosCadastro = new Label();
             btnRetornarCadastro = new Button();
-            btnCriarAcesso = new Button();
+            btnAlterarDados = new Button();
             txtRendaCadastro = new TextBox();
             txtCepCadastro = new TextBox();
             txtGeneroCadastro = new TextBox();
@@ -134,16 +134,17 @@
             btnRetornarCadastro.Text = "Retornar";
             btnRetornarCadastro.UseVisualStyleBackColor = false;
             // 
-            // btnCriarAcesso
+            // btnAlterarDados
             // 
-            btnCriarAcesso.BackColor = Color.White;
-            btnCriarAcesso.Font = new Font("Lucida Bright", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            btnCriarAcesso.Location = new Point(878, 381);
-            btnCriarAcesso.Name = "btnCriarAcesso";
-            btnCriarAcesso.Size = new Size(195, 41);
-            btnCriarAcesso.TabIndex = 45;
-            btnCriarAcesso.Text = "Criar cadastro";
-            btnCriarAcesso.UseVisualStyleBackColor = false;
+            btnAlterarDados.BackColor = Color.White;
+            btnAlterarDados.Font = new Font("Lucida Bright", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            btnAlterarDados.Location = new Point(878, 381);
+            btnAlterarDados.Name = "btnAlterarDados";
+            btnAlterarDados.Size = new Size(195, 41);
+            btnAlterarDados.TabIndex = 45;
+            btnAlterarDados.Text = "Atualizar Dados";
+            btnAlterarDados.UseVisualStyleBackColor = false;
+            btnAlterarDados.Click += BtnCriarAcesso_Click;
             // 
             // txtRendaCadastro
             // 
@@ -239,7 +240,7 @@
             Controls.Add(txtEnderecoCadastro);
             Controls.Add(lblInserirDadosCadastro);
             Controls.Add(btnRetornarCadastro);
-            Controls.Add(btnCriarAcesso);
+            Controls.Add(btnAlterarDados);
             Controls.Add(txtRendaCadastro);
             Controls.Add(txtCepCadastro);
             Controls.Add(txtGeneroCadastro);
@@ -265,7 +266,7 @@
         private TextBox txtEnderecoCadastro;
         private Label lblInserirDadosCadastro;
         private Button btnRetornarCadastro;
-        private Button btnCriarAcesso;
+        private Button btnAlterarDados;
         private TextBox txtRendaCadastro;
         private TextBox txtCepCadastro;
         private TextBox txtGeneroCadastro;

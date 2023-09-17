@@ -34,7 +34,7 @@
             lblVoltarDeposito = new Button();
             btnConfirmarDeposito = new Button();
             lblValorDeposito = new Label();
-            txtValorDeposito = new TextBox();
+            txtvalorDeposito = new TextBox();
             txtNome = new TextBox();
             txtRecebedor = new TextBox();
             txtContaDestino = new TextBox();
@@ -91,6 +91,7 @@
             btnConfirmarDeposito.TabIndex = 57;
             btnConfirmarDeposito.Text = "Confirmar depósito";
             btnConfirmarDeposito.UseVisualStyleBackColor = false;
+            btnConfirmarDeposito.Click += btnConfirmarDeposito_Click;
             // 
             // lblValorDeposito
             // 
@@ -103,16 +104,16 @@
             lblValorDeposito.TabIndex = 62;
             lblValorDeposito.Text = "Insira o valor a ser depositado:";
             // 
-            // txtValorDeposito
+            // txtvalorDeposito
             // 
-            txtValorDeposito.BackColor = Color.White;
-            txtValorDeposito.Font = new Font("Lucida Bright", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            txtValorDeposito.Location = new Point(49, 276);
-            txtValorDeposito.Name = "txtValorDeposito";
-            txtValorDeposito.PlaceholderText = "R$ 0,00";
-            txtValorDeposito.Size = new Size(267, 39);
-            txtValorDeposito.TabIndex = 56;
-            txtValorDeposito.TextAlign = HorizontalAlignment.Center;
+            txtvalorDeposito.BackColor = Color.White;
+            txtvalorDeposito.Font = new Font("Lucida Bright", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            txtvalorDeposito.Location = new Point(49, 276);
+            txtvalorDeposito.Name = "txtvalorDeposito";
+            txtvalorDeposito.PlaceholderText = "R$ 0,00";
+            txtvalorDeposito.Size = new Size(267, 39);
+            txtvalorDeposito.TabIndex = 56;
+            txtvalorDeposito.TextAlign = HorizontalAlignment.Center;
             // 
             // txtNome
             // 
@@ -202,7 +203,7 @@
             Controls.Add(lblVoltarDeposito);
             Controls.Add(btnConfirmarDeposito);
             Controls.Add(lblValorDeposito);
-            Controls.Add(txtValorDeposito);
+            Controls.Add(txtvalorDeposito);
             Controls.Add(txtNome);
             Controls.Add(txtRecebedor);
             Controls.Add(txtContaDestino);
@@ -224,7 +225,7 @@
         private Button lblVoltarDeposito;
         private Button btnConfirmarDeposito;
         private Label lblValorDeposito;
-        private TextBox txtValorDeposito;
+        private TextBox txtvalorDeposito;
         private TextBox txtNome;
         private TextBox txtRecebedor;
         private TextBox txtContaDestino;

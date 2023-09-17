@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "mssql1": {
+      "secretStore": "LocalSecretsFile",
+      "type": "mssql.local",
+      "connectionId": "ConnectionStrings:workstationid=BancoJukas.mssql.somee.com;packetsize=4096;userid=lluaEliza_SQLLogin_1;pwd=Lugra1124;datasource=BancoJukas.mssql.somee.com;persistsecurityinfo=False;initialcatalog=BancoJukas",
+      "dynamicId": null
+    }
+  }
+}

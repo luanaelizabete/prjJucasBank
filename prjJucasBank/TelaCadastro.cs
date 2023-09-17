@@ -1,8 +1,16 @@
-﻿using System.Configuration;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace PrjtAula01
+namespace prjJucasBank
 {
     public partial class TelaCadastro : Form
     {
@@ -11,22 +19,12 @@ namespace PrjtAula01
             InitializeComponent();
         }
 
-        private void LblInserirDadosCadastro_Click(object sender, EventArgs e)
+        private void TelaCadastro_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void Label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TxtNomeCadastro_TextChanged(object sender, EventArgs e)
+        private void txtNomeCadastro_TextChanged(object sender, EventArgs e)
         {
             if (double.TryParse(txtNomeCadastro.Text, out var valorDigitado))
             {
@@ -34,22 +32,7 @@ namespace PrjtAula01
             }
         }
 
-        private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TxtRendaCadastro_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TelaCadastro_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BtnCriarAcesso_Click(object sender, EventArgs e)
+        private void btnCriarAcesso_Click(object sender, EventArgs e)
         {
             try
             {
@@ -62,26 +45,26 @@ namespace PrjtAula01
                     SqlCommand cmd = new SqlCommand();
 
                     //criando texto do comando, tipo e conexão que será usada
-                    cmd.CommandText = "pi_Cliente";
+                    cmd.CommandText = "dbo.pi_Cliente";
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Connection = conexao;
 
                     //inserindo parâmetros na procedure
                     cmd.Parameters.Clear();
-                    cmd.Parameters.AddWithValue("Nome", txtNomeCadastro.Text);
-                    cmd.Parameters.AddWithValue("Email", txtEmailCadastro.Text);
-                    cmd.Parameters.AddWithValue("Celular", txtCelularCadastro.Text);
-                    cmd.Parameters.AddWithValue("dtNasc", Convert.ToDateTime(dtpNascimentoCadastro.Text));
-                    cmd.Parameters.AddWithValue("Genero", txtGeneroCadastro.Text);
-                    cmd.Parameters.AddWithValue("Cidade", txtCidadeCadastro.Text);
-                    cmd.Parameters.AddWithValue("Uf", cbUf.Text);
-                    cmd.Parameters.AddWithValue("Cep", txtCepCadastro.Text);
-                    cmd.Parameters.AddWithValue("Endereco", txtEnderecoCadastro.Text);
+                    cmd.Parameters.AddWithValue("nome", txtNomeCadastro.Text);
+                    cmd.Parameters.AddWithValue("email", txtEmailCadastro.Text);
+                    cmd.Parameters.AddWithValue("celular", txtCelularCadastro.Text);
+                    cmd.Parameters.AddWithValue("dataNascimento", Convert.ToDateTime(dtpNascimentoCadastro.Text));
+                    cmd.Parameters.AddWithValue("genero", txtGeneroCadastro.Text);
+                    cmd.Parameters.AddWithValue("cidade", txtCidadeCadastro.Text);
+                    cmd.Parameters.AddWithValue("estado", cbUf.Text);
+                    cmd.Parameters.AddWithValue("cep", txtCepCadastro.Text);
+                    cmd.Parameters.AddWithValue("endereco", txtEnderecoCadastro.Text);
                     cmd.Parameters.AddWithValue("numeroEndereco", txtNumEnderecoCadastro.Text);
-                    cmd.Parameters.AddWithValue("Cpf", txtCpfCadastro.Text);
-                    cmd.Parameters.AddWithValue("Rg", txtRgCadastro.Text);
-                    cmd.Parameters.AddWithValue("Renda", txtRendaCadastro.Text);
-                    cmd.Parameters.AddWithValue("Senha", txtSenhaCadastro.Text);
+                    cmd.Parameters.AddWithValue("cpf", txtCpfCadastro.Text);
+                    cmd.Parameters.AddWithValue("rg", txtRgCadastro.Text);
+                    cmd.Parameters.AddWithValue("renda", txtRendaCadastro.Text);
+                    cmd.Parameters.AddWithValue("senhaLogin", txtSenhaCadastro.Text);
 
                     conexao.Open();
                     cmd.ExecuteNonQuery();
@@ -100,20 +83,5 @@ namespace PrjtAula01
                 MessageBox.Show(ex.Message, "Erro durante o cadastro! ", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        private void TxtNumLogCad_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TxtLogradCad_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnRetornarCadastro_Click(object sender, EventArgs e)
-        {
-
-        }
     }
-}
+    }
