@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jiFPb/RDQ7XUJ4EgTbVHVOGmTRhCtfYKpmGHGzXL3t8cLIF3zAidgyrEwYhQTWZUbEicautvLMkyKEPQZDD9oQ==",
+  "dgSpecHash": "Y8wcNuNUNCvP3vaV2YioSqbqukNZCX9Cie2+dD6XbP6FWTFS5+uX+XSLmQ5JydyK6e9QIB4wzf+afrWWfkwWFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\TelaAlterarDados\\TelaAlterarDados.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\TelaAlterarDados\\TelaAlterarDados.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

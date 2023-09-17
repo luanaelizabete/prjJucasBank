@@ -1,4 +1,4 @@
-﻿using PrjtAula01;
+﻿using prjJucasBank;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -51,15 +51,45 @@ namespace prjJucasBank
 
         private void loginToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            TelaLogin telaLogin = new TelaLogin();
+            telaLogin.Show();
 
         }
 
         private void saqueToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            TelaSaque telaSaque = new TelaSaque();
+            telaSaque.Show();
+
 
         }
 
         private void depósitoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            
+        }
+
+        private void TelaLogin_Load_1(object sender, EventArgs e)
+        {
+
+            TelaLogin telaLogin = new TelaLogin();
+            telaLogin.Show();
+
+        }
+
+        private void transferênciaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void contaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TelaCriarConta telaCriarConta = new TelaCriarConta();
+            telaCriarConta.Show();
+        }
+
+        private void pagamentosToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }

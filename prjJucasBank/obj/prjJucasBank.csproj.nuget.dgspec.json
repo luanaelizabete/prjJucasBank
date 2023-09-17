@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj": {}
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\DTO\\DTO.csproj": {
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\DTO\\DTO.csproj",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\DTO\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj": {
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj",
         "projectName": "prjJucasBank",
-        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\prjJucasBank\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\prjJucasBank\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\DTO\\DTO.csproj"
+              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\DTO\\DTO.csproj"
               }
             }
           }

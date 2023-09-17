@@ -11,15 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "DTO\DTO.csproj", "{3C211450-16A0-4084-9CE6-C4A72AF5A2D9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelaSaque", "TelaSaque\TelaSaque.csproj", "{307254A1-0B0D-49C2-832F-4C4ED41107F2}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Config", "TelaDeposito\TelaDeposito2\Config.csproj", "{FC80C15B-B546-4768-9F03-47C0E39822C0}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelaAlterarDados", "TelaAlterarDados\TelaAlterarDados.csproj", "{C80FC175-EE1B-4DEB-A40E-93C07145E771}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelaTransferencia", "TelaTransferencia\TelaTransferencia.csproj", "{2F8F0668-36D9-4EB1-B8E5-6674A0C60795}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelaPagamento", "TelaPagamento\TelaPagamento.csproj", "{7BBA1F4B-4EC7-4C0B-9583-60C34B3CC4DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,26 +35,10 @@ Global
 		{3C211450-16A0-4084-9CE6-C4A72AF5A2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C211450-16A0-4084-9CE6-C4A72AF5A2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C211450-16A0-4084-9CE6-C4A72AF5A2D9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{307254A1-0B0D-49C2-832F-4C4ED41107F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{307254A1-0B0D-49C2-832F-4C4ED41107F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{307254A1-0B0D-49C2-832F-4C4ED41107F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{307254A1-0B0D-49C2-832F-4C4ED41107F2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FC80C15B-B546-4768-9F03-47C0E39822C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FC80C15B-B546-4768-9F03-47C0E39822C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC80C15B-B546-4768-9F03-47C0E39822C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC80C15B-B546-4768-9F03-47C0E39822C0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C80FC175-EE1B-4DEB-A40E-93C07145E771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C80FC175-EE1B-4DEB-A40E-93C07145E771}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C80FC175-EE1B-4DEB-A40E-93C07145E771}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C80FC175-EE1B-4DEB-A40E-93C07145E771}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2F8F0668-36D9-4EB1-B8E5-6674A0C60795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F8F0668-36D9-4EB1-B8E5-6674A0C60795}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F8F0668-36D9-4EB1-B8E5-6674A0C60795}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F8F0668-36D9-4EB1-B8E5-6674A0C60795}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7BBA1F4B-4EC7-4C0B-9583-60C34B3CC4DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BBA1F4B-4EC7-4C0B-9583-60C34B3CC4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BBA1F4B-4EC7-4C0B-9583-60C34B3CC4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BBA1F4B-4EC7-4C0B-9583-60C34B3CC4DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

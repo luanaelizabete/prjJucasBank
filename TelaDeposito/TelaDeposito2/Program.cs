@@ -1,4 +1,4 @@
-namespace TelaDeposito2
+namespace TelaDeposito
 {
     internal static class Program
     {

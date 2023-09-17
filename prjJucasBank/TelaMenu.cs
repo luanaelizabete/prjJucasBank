@@ -72,6 +72,8 @@ namespace prjJucasBank
 
         private void sairMenu_Click(object sender, EventArgs e)
         {
+
+            this.Close();
         }
 
         private void btConfig_Click(object sender, EventArgs e)

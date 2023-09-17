@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\Config.csproj": {}
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\Config.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\Config.csproj": {
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\Config.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\Config.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\Config.csproj",
         "projectName": "Config",
-        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\Config.csproj",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\Config.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

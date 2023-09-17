@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\DTO\\DTO.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\DTO\\DTO.csproj",
       "projectName": "DTO",
-      "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\DTO\\DTO.csproj",
+      "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\DTO\\DTO.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\DTO\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\DTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

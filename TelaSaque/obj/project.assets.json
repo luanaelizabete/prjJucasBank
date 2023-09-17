@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\TelaSaque\\TelaSaque.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\TelaSaque\\TelaSaque.csproj",
       "projectName": "TelaSaque",
-      "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\TelaSaque\\TelaSaque.csproj",
+      "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\TelaSaque\\TelaSaque.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJucasBank\\prjJucasBank\\TelaSaque\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\TelaSaque\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

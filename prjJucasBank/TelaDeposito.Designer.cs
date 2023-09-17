@@ -1,6 +1,6 @@
-﻿namespace TelaDeposito2
+﻿namespace TelaDeposito
 {
-    partial class Form1
+    partial class TelaDeposito
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaDeposito));
             pictureBox1 = new PictureBox();
             lblDepositoConfirmado = new Label();
             lblVoltarDeposito = new Button();
@@ -192,7 +192,7 @@
             lblDeposito.TabIndex = 59;
             lblDeposito.Text = "Depósito";
             // 
-            // Form1
+            // TelaDeposito
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -211,7 +211,7 @@
             Controls.Add(lblValorSaldo);
             Controls.Add(lblSaldo);
             Controls.Add(lblDeposito);
-            Name = "Form1";
+            Name = "TelaDeposito";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

@@ -155,6 +155,7 @@
             btnRetornarCadastro.TabIndex = 46;
             btnRetornarCadastro.Text = "Retornar";
             btnRetornarCadastro.UseVisualStyleBackColor = false;
+            btnRetornarCadastro.Click += btnRetornarCadastro_Click;
             // 
             // btnCriarAcesso
             // 

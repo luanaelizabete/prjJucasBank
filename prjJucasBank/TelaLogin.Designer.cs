@@ -95,12 +95,14 @@
             transferênciaToolStripMenuItem.Name = "transferênciaToolStripMenuItem";
             transferênciaToolStripMenuItem.Size = new Size(143, 22);
             transferênciaToolStripMenuItem.Text = "Transferência";
+            transferênciaToolStripMenuItem.Click += transferênciaToolStripMenuItem_Click;
             // 
             // contaToolStripMenuItem
             // 
             contaToolStripMenuItem.Name = "contaToolStripMenuItem";
             contaToolStripMenuItem.Size = new Size(51, 20);
             contaToolStripMenuItem.Text = "Conta";
+            contaToolStripMenuItem.Click += contaToolStripMenuItem_Click;
             // 
             // extratoToolStripMenuItem
             // 
@@ -113,6 +115,7 @@
             pagamentosToolStripMenuItem.Name = "pagamentosToolStripMenuItem";
             pagamentosToolStripMenuItem.Size = new Size(85, 20);
             pagamentosToolStripMenuItem.Text = "Pagamentos";
+            pagamentosToolStripMenuItem.Click += pagamentosToolStripMenuItem_Click;
             // 
             // agendamentosToolStripMenuItem
             // 
@@ -130,7 +133,7 @@
             // 
             pictureBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(698, 46);
+            pictureBox2.Location = new Point(690, 46);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(263, 125);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -147,6 +150,7 @@
             MainMenuStrip = menu;
             Name = "TelaLogin";
             Text = "TelaCadastro2";
+            Load += TelaLogin_Load_1;
             menu.ResumeLayout(false);
             menu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

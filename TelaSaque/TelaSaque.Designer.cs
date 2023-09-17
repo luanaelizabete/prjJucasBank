@@ -32,7 +32,7 @@
             pictureBox1 = new PictureBox();
             lblDepositoConfirmado = new Label();
             lblVoltarDeposito = new Button();
-            btConfirmarDeposito = new Button();
+            btConfirmarSaque = new Button();
             lblValorDeposito = new Label();
             txtValorDeposito = new TextBox();
             txtIdentificacao = new TextBox();
@@ -80,17 +80,18 @@
             lblVoltarDeposito.Text = "Voltar";
             lblVoltarDeposito.UseVisualStyleBackColor = false;
             // 
-            // btConfirmarDeposito
+            // btConfirmarSaque
             // 
-            btConfirmarDeposito.BackColor = Color.White;
-            btConfirmarDeposito.Font = new Font("Lucida Bright", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            btConfirmarDeposito.ForeColor = Color.Black;
-            btConfirmarDeposito.Location = new Point(858, 314);
-            btConfirmarDeposito.Name = "btConfirmarDeposito";
-            btConfirmarDeposito.Size = new Size(300, 48);
-            btConfirmarDeposito.TabIndex = 44;
-            btConfirmarDeposito.Text = "Confirmar depósito";
-            btConfirmarDeposito.UseVisualStyleBackColor = false;
+            btConfirmarSaque.BackColor = Color.White;
+            btConfirmarSaque.Font = new Font("Lucida Bright", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            btConfirmarSaque.ForeColor = Color.Black;
+            btConfirmarSaque.Location = new Point(858, 314);
+            btConfirmarSaque.Name = "btConfirmarSaque";
+            btConfirmarSaque.Size = new Size(300, 48);
+            btConfirmarSaque.TabIndex = 44;
+            btConfirmarSaque.Text = "Confirmar Saque";
+            btConfirmarSaque.UseVisualStyleBackColor = false;
+            btConfirmarSaque.Click += btConfirmarSaque_Click;
             // 
             // lblValorDeposito
             // 
@@ -200,7 +201,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(lblDepositoConfirmado);
             Controls.Add(lblVoltarDeposito);
-            Controls.Add(btConfirmarDeposito);
+            Controls.Add(btConfirmarSaque);
             Controls.Add(lblValorDeposito);
             Controls.Add(txtValorDeposito);
             Controls.Add(txtIdentificacao);
@@ -222,7 +223,7 @@
         private PictureBox pictureBox1;
         private Label lblDepositoConfirmado;
         private Button lblVoltarDeposito;
-        private Button btConfirmarDeposito;
+        private Button btConfirmarSaque;
         private Label lblValorDeposito;
         private TextBox txtValorDeposito;
         private TextBox txtIdentificacao;

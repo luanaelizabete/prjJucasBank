@@ -13,25 +13,24 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
-namespace TelaDeposito2
+namespace TelaDeposito
 {
-    public partial class Form1 : Form
+    public partial class TelaDeposito : Form
     {
-        public Form1()
+        public TelaDeposito()
         {
             InitializeComponent();
         }
 
         private void btnConfirmarDeposito_Click(object sender, EventArgs e)
         {
-
             try
             {
                 Conta conta = new Conta();
 
                 if (Convert.ToInt32(txtvalorDeposito.Text) <= 0 || decimal.TryParse(txtvalorDeposito.Text, out decimal result) == false)
                 {
-                    throw new Exception("Insira um caracter válido. \n *número acima de zero");
+                    throw new Exception("Insira um caracter válido");
                 }
                 else if (txtvalorDeposito.Text == string.Empty)
                 {
@@ -70,7 +69,7 @@ namespace TelaDeposito2
 
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
 
                 throw;

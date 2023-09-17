@@ -25,14 +25,14 @@ namespace prjJucasBank
             {
                 Cliente cliente = new Cliente(Convert.ToInt32(txtId.Text), txtnomecliente.Text);
 
-                MessageBox.Show($"Cliente adicionado com sucesso!\n\n{cliente.Id}-{cliente.Nome}",
+                MessageBox.Show($"Cliente adicionado com sucesso\n\n{cliente.Id}-{cliente.Nome}",
                     "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 Cliente.Add(cliente);
             }
             catch (FormatException ex)
             {
-                MessageBox.Show($"{ex.HResult} que paia, bota um número dahora aí tio.");
+                MessageBox.Show($"{ex.HResult} digite outro número");
             }
             catch (Exception ex)
             {
@@ -50,7 +50,7 @@ namespace prjJucasBank
             Lstinfo.Items.Clear();
             foreach (var cliente in Cliente)
             {
-                //MessageBox.Show($"{cliente.Id}: {cliente.Nome}");
+                
                 Lstinfo.Items.Add($"{cliente.Id}-{cliente.Nome}");
             }
 

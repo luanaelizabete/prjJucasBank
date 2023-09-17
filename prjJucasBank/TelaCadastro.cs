@@ -41,15 +41,13 @@ namespace prjJucasBank
                     SqlConnection conexao =
                     new SqlConnection(ConfigurationManager.ConnectionStrings["prjJucasBank.Properties.Settings.strConexao"].ToString());
 
-                    //Criando um comando
+                   
                     SqlCommand cmd = new SqlCommand();
 
-                    //criando texto do comando, tipo e conexão que será usada
-                    cmd.CommandText = "dbo.pi_Cliente";
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Connection = conexao;
 
-                    //inserindo parâmetros na procedure
+                  
                     cmd.Parameters.Clear();
                     cmd.Parameters.AddWithValue("nome", txtNomeCadastro.Text);
                     cmd.Parameters.AddWithValue("email", txtEmailCadastro.Text);
@@ -83,5 +81,11 @@ namespace prjJucasBank
                 MessageBox.Show(ex.Message, "Erro durante o cadastro! ", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnRetornarCadastro_Click(object sender, EventArgs e)
+        {
+
+            this.Close();
+        }
     }
-    }
+}

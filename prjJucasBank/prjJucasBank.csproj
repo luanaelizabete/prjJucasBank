@@ -27,6 +27,12 @@
     <Compile Update="TelaDeposito.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="TelaPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaTransferencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
