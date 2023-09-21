@@ -125,17 +125,16 @@ namespace prjJucasBank
                     menuPrincipal.Items[3].Visible = true;
                     menuPrincipal.Items[4].Visible = true;
                     menuPrincipal.Items[5].Visible = true;
-                    menuPrincipal.Items[6].Visible = true;
-                    menuPrincipal.Items[6].Text = UsuarioLogado.Nome;
+                    menuPrincipal.Items[5].Text = UsuarioLogado.Nome;
 
                     if (UsuarioLogado.Contas.Count == 0)
                     {
-                        menuPrincipal.Items[9].Text = "não há contas";
+                        menuPrincipal.Items[3].Text = "não há contas";
                         MessageBox.Show($"Olá,{UsuarioLogado.Nome}");
                     }
                     else
                     {
-                        menuPrincipal.Items[9].Text = $"Conta: {UsuarioLogado.Contas[0].IdCliente.ToString()}";
+                        menuPrincipal.Items[3].Text = $"Conta: {UsuarioLogado.Contas[0].IdCliente.ToString()}";
 
                         MessageBox.Show($"Olá,{UsuarioLogado.Nome}!\n" +
                             $"Você foi logado na conta {UsuarioLogado.Contas[0].IdCliente.ToString()}\n" +

@@ -148,7 +148,6 @@
             Controls.Add(lblDeposito);
             Name = "TelaCriarConta";
             Text = "TelaCriarConta";
-            Load += TelaCriarConta_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

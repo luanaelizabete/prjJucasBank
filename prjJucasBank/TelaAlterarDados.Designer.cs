@@ -46,6 +46,8 @@
             txtRgCadastro = new TextBox();
             txtCpfCadastro = new TextBox();
             txtNomeCadastro = new TextBox();
+            txtSenhaLoginAlt = new TextBox();
+            txtConfSenhaLoginAlt = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -226,12 +228,34 @@
             txtNomeCadastro.TabIndex = 51;
             txtNomeCadastro.TextAlign = HorizontalAlignment.Center;
             // 
-            // TelaAlterarDados1
+            // txtSenhaLoginAlt
+            // 
+            txtSenhaLoginAlt.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtSenhaLoginAlt.Location = new Point(54, 344);
+            txtSenhaLoginAlt.Name = "txtSenhaLoginAlt";
+            txtSenhaLoginAlt.PlaceholderText = "Digite sua senha";
+            txtSenhaLoginAlt.Size = new Size(300, 29);
+            txtSenhaLoginAlt.TabIndex = 68;
+            txtSenhaLoginAlt.TextAlign = HorizontalAlignment.Center;
+            // 
+            // txtConfSenhaLoginAlt
+            // 
+            txtConfSenhaLoginAlt.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtConfSenhaLoginAlt.Location = new Point(437, 344);
+            txtConfSenhaLoginAlt.Name = "txtConfSenhaLoginAlt";
+            txtConfSenhaLoginAlt.PlaceholderText = "Confirme sua senha";
+            txtConfSenhaLoginAlt.Size = new Size(300, 29);
+            txtConfSenhaLoginAlt.TabIndex = 69;
+            txtConfSenhaLoginAlt.TextAlign = HorizontalAlignment.Center;
+            // 
+            // TelaAlterarDados
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             ClientSize = new Size(1169, 507);
+            Controls.Add(txtConfSenhaLoginAlt);
+            Controls.Add(txtSenhaLoginAlt);
             Controls.Add(pictureBox1);
             Controls.Add(dtpNascimentoCadastro);
             Controls.Add(cbUf);
@@ -249,8 +273,9 @@
             Controls.Add(txtRgCadastro);
             Controls.Add(txtCpfCadastro);
             Controls.Add(txtNomeCadastro);
-            Name = "TelaAlterarDados1";
+            Name = "TelaAlterarDados";
             Text = "TelaAlterarDados1";
+            Load += TelaAlterarDados_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -275,5 +300,7 @@
         private TextBox txtRgCadastro;
         private TextBox txtCpfCadastro;
         private TextBox txtNomeCadastro;
+        private TextBox txtSenhaLoginAlt;
+        private TextBox txtConfSenhaLoginAlt;
     }
 }

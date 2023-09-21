@@ -61,16 +61,32 @@ namespace TelaDeposito
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Connection = conexao;
 
+                    cmd.Parameters.Clear();
+                    cmd.Parameters.AddWithValue("idConta", UsuarioLogado.ContaLogada);
+                    cmd.Parameters.AddWithValue("idCliente", UsuarioLogado.IdCliente);
+                    cmd.Parameters.AddWithValue("saldo", conta.Saldo);
+                    cmd.Parameters.AddWithValue("limite", conta.Limite);
+                    cmd.Parameters.AddWithValue("tipoConta", conta.TipoConta);
+                    cmd.Parameters.AddWithValue("statusConta", conta.StatusConta);
+                    if (conta.EncerramentoConta == null)
+                    {
+                        cmd.Parameters.AddWithValue("encerramentoConta", DBNull.Value);
+                    }
+                    cmd.Parameters.AddWithValue("senhaConta", conta.SenhaConta);
 
+                    conexao.Open();
+                    cmd.ExecuteNonQuery();
+                    conexao.Close();
 
+                    UIClear.CleanTxtBoxes(this);
+                    lblValorSaldo.Text = conta.Saldo.ToString();
                 }
 
-
-
-
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+
+                MessageBox.Show(ex.Message, "ERRO!", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 throw;
             }

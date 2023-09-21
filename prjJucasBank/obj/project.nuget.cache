@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FdGHJxndjucCGnC2vTZjeehH2up34d8nqxo9APQmi5XqwvArQUGUONvTqNOIXaKJDfjMZr9iQ3s/J6mKMYOKRQ==",
+  "dgSpecHash": "czGjViMuHsOWwEsngBBFy9YOxlJYZoBfwXFmZZc54DMFmfCKA44jhEGdqte6IUzvzeVvPbpZZWN2MhK5msk8xQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luana.eoalima\\source\\repos\\luanaelizabete\\Nova pasta\\prjJucasBank\\prjJucasBank.csproj",
+  "projectFilePath": "C:\\Users\\luana.eoalima\\source\\repos\\lu\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luana.eoalima\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\luana.eoalima\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

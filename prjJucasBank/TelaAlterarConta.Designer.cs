@@ -78,6 +78,7 @@
             cbContas.Name = "cbContas";
             cbContas.Size = new Size(90, 23);
             cbContas.TabIndex = 41;
+            cbContas.SelectedIndexChanged += cbContas_SelectedIndexChanged;
             // 
             // lblAlterarContas
             // 

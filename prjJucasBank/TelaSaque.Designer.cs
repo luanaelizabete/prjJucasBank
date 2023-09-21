@@ -53,7 +53,7 @@
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(101, 23);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(146, 83);
+            pictureBox1.Size = new Size(146, 130);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 64;
             pictureBox1.TabStop = false;
@@ -68,7 +68,6 @@
             lblDepositoConfirmado.Size = new Size(214, 37);
             lblDepositoConfirmado.TabIndex = 63;
             lblDepositoConfirmado.Text = "Saque realizado!";
-            lblDepositoConfirmado.Click += lblDepositoConfirmado_Click;
             // 
             // lblVoltarDeposito
             // 
@@ -80,7 +79,6 @@
             lblVoltarDeposito.TabIndex = 58;
             lblVoltarDeposito.Text = "Voltar";
             lblVoltarDeposito.UseVisualStyleBackColor = false;
-            lblVoltarDeposito.Click += lblVoltarDeposito_Click;
             // 
             // btConfirmarSaque
             // 
@@ -199,7 +197,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            ClientSize = new Size(1169, 507);
+            ClientSize = new Size(1169, 554);
             Controls.Add(pictureBox1);
             Controls.Add(lblDepositoConfirmado);
             Controls.Add(lblVoltarDeposito);
@@ -215,6 +213,7 @@
             Controls.Add(lblDeposito);
             Name = "TelaSaque";
             Text = "TelaSaque1";
+            Load += TelaSaque_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

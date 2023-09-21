@@ -37,7 +37,7 @@ namespace prjJucasBank
 
                     //Criando uma conexão
                     SqlConnection conexao =
-                               new SqlConnection(ConfigurationManager.ConnectionStrings["PrjtAula01.Properties.Settings.strConexao"].ToString());
+                               new SqlConnection(ConfigurationManager.ConnectionStrings["prjJucasBank.Properties.Settings.strConexao"].ToString());
 
                     //Criando um comando
                     SqlCommand cmd = new SqlCommand();
@@ -71,7 +71,23 @@ namespace prjJucasBank
 
                     UsuarioLogado.Contas.Add(conta);
 
+                    UsuarioLogado.ContaLogada = UsuarioLogado.Contas[0].IdConta;
+
+                    Form telalogin = Application.OpenForms["TelaLogin"];
+                    MenuStrip menuprincipal = (MenuStrip)telalogin.Controls[0];
+                    if (UsuarioLogado.Contas.Count <= 1)
+                    {
+
+
+                        menuprincipal.Items[5].Visible = true; 
+                        menuprincipal.Items[4].Visible = true;
+                        menuprincipal.Items[2].Visible = true;
+                        menuprincipal.Items[6].Visible = true; 
+                    }
+                    menuprincipal.Items[3].Text = $"Conta: {UsuarioLogado.ContaLogada.ToString()}";
+
                     UIClear.CleanTxtBoxes(this);
+                    
 
                 }
                 else
@@ -84,10 +100,6 @@ namespace prjJucasBank
                 MessageBox.Show(ex.Message,
                     "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
-
-        private void TelaCriarConta_Load(object sender, EventArgs e)
-        {
 
         }
     }
