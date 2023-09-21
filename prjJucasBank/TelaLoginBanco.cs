@@ -76,17 +76,15 @@ namespace prjJucasBank
                     UsuarioLogado.DataNascimento = leitor.GetDateTime(12);
                     UsuarioLogado.Renda = leitor.GetDecimal(13);
                     UsuarioLogado.Senha = leitor.GetString(14);
-                  
+
                     leitor.Close();
 
                     cmd.CommandText = "ps_buscaContaPorIdCliente";
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Connection = conexao;
 
-                   
                     cmd.Parameters.Clear();
                     cmd.Parameters.AddWithValue("IdCliente", UsuarioLogado.IdCliente);
-
 
                     leitor = cmd.ExecuteReader();
 
@@ -119,7 +117,7 @@ namespace prjJucasBank
                     conexao.Close();
 
                     Form TelaLogin = Application.OpenForms["TelaLogin"];
-                    //acessando o formulário aberto através da variável janelaPrincipal
+
                     MenuStrip menuPrincipal = (MenuStrip)TelaLogin.Controls[0];
                     menuPrincipal.Items[0].Text = "Logout";
                     menuPrincipal.Items[1].Visible = false;
@@ -128,10 +126,8 @@ namespace prjJucasBank
                     menuPrincipal.Items[4].Visible = true;
                     menuPrincipal.Items[5].Visible = true;
                     menuPrincipal.Items[6].Visible = true;
-                    menuPrincipal.Items[7].Visible = true;
-                    menuPrincipal.Items[8].Visible = true;
-                    menuPrincipal.Items[8].Text = UsuarioLogado.Nome;
-                    menuPrincipal.Items[9].Visible = true;
+                    menuPrincipal.Items[6].Text = UsuarioLogado.Nome;
+
                     if (UsuarioLogado.Contas.Count == 0)
                     {
                         menuPrincipal.Items[9].Text = "não há contas";
@@ -145,14 +141,6 @@ namespace prjJucasBank
                             $"Você foi logado na conta {UsuarioLogado.Contas[0].IdCliente.ToString()}\n" +
                             $"Para trocar de conta, utilize o menu Conta\\Alternar Conta");
                     }
-
-
-
-
-
-
-
-
 
 
 
@@ -174,6 +162,11 @@ namespace prjJucasBank
         {
             TelaCadastro TelaLoginBanco = new TelaCadastro();
             TelaLoginBanco.Show();
+        }
+
+        private void txtUsuarioLogin_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

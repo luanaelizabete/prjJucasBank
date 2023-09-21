@@ -48,6 +48,7 @@
             btAlterarConta.TabIndex = 45;
             btAlterarConta.Text = "Alterar";
             btAlterarConta.UseVisualStyleBackColor = true;
+            btAlterarConta.Click += btAlterarConta_Click;
             // 
             // txtSenhaContaAlt
             // 

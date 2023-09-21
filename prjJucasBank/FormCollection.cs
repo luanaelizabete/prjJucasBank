@@ -14,6 +14,8 @@ namespace prjJucasBank
 {
     public partial class FormCollection : Form
     {
+
+        List<Cliente> Clientes = new List<Cliente>();
         public FormCollection()
         {
             InitializeComponent();
@@ -28,7 +30,7 @@ namespace prjJucasBank
                 MessageBox.Show($"Cliente adicionado com sucesso\n\n{cliente.Id}-{cliente.Nome}",
                     "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                Cliente.Add(cliente);
+                Clientes.Add(cliente);
             }
             catch (FormatException ex)
             {
@@ -48,9 +50,9 @@ namespace prjJucasBank
         private void Btnlistar_Click(object sender, EventArgs e)
         {
             Lstinfo.Items.Clear();
-            foreach (var cliente in Cliente)
+            foreach (var cliente in Clientes)
             {
-                
+
                 Lstinfo.Items.Add($"{cliente.Id}-{cliente.Nome}");
             }
 
@@ -58,15 +60,15 @@ namespace prjJucasBank
 
         private void FormCollection_Load(object sender, EventArgs e)
         {
-         
+
             string[] meuArrayString = new string[3];
 
-           
+
             int[] meuArrayInt = { 2, 7, 8, 9, 11 };
 
-           
+
             meuArrayString[0] = "tobibas";
-          
+
             string mensagemFinal = "";
 
             for (int contador = 0; contador < meuArrayString.Length; contador++)
@@ -78,6 +80,6 @@ namespace prjJucasBank
 
         }
     }
-    }
+}
 
 

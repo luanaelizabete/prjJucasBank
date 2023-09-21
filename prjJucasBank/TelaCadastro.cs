@@ -38,12 +38,13 @@ namespace prjJucasBank
             {
                 if (txtSenhaCadastro.Text == txtSenhaConfirmaCadastro.Text)
                 {
+
                     SqlConnection conexao =
                     new SqlConnection(ConfigurationManager.ConnectionStrings["prjJucasBank.Properties.Settings.strConexao"].ToString());
 
                    
                     SqlCommand cmd = new SqlCommand();
-
+                    cmd.CommandText = "pi_Cliente";
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Connection = conexao;
 
@@ -68,7 +69,7 @@ namespace prjJucasBank
                     cmd.ExecuteNonQuery();
                     conexao.Close();
                     MessageBox.Show("Cadastro realizado com sucesso!", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    prjJucasBank.UIClear.CleanTxtBoxes(this);
+                   UIClear.CleanTxtBoxes(this);
                 }
                 else
                 {

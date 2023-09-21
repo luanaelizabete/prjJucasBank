@@ -21,5 +21,15 @@ namespace prjJucasBank
         {
 
         }
+
+        private void lblVoltarDeposito_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblDepositoConfirmado_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

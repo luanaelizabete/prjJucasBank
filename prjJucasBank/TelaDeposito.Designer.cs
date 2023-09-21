@@ -51,7 +51,7 @@
             pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pictureBox1.BackColor = Color.Black;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(86, 23);
+            pictureBox1.Location = new Point(49, 23);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(153, 91);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -63,11 +63,12 @@
             lblDepositoConfirmado.AutoSize = true;
             lblDepositoConfirmado.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
             lblDepositoConfirmado.ForeColor = Color.DarkOrchid;
-            lblDepositoConfirmado.Location = new Point(833, 330);
+            lblDepositoConfirmado.Location = new Point(849, 330);
             lblDepositoConfirmado.Name = "lblDepositoConfirmado";
             lblDepositoConfirmado.Size = new Size(249, 37);
             lblDepositoConfirmado.TabIndex = 63;
             lblDepositoConfirmado.Text = "Depósito realizado!";
+            lblDepositoConfirmado.Click += lblDepositoConfirmado_Click;
             // 
             // lblVoltarDeposito
             // 
@@ -186,7 +187,7 @@
             lblDeposito.AutoSize = true;
             lblDeposito.Font = new Font("Lucida Bright", 25.25F, FontStyle.Regular, GraphicsUnit.Point);
             lblDeposito.ForeColor = Color.DarkOrchid;
-            lblDeposito.Location = new Point(260, 49);
+            lblDeposito.Location = new Point(234, 49);
             lblDeposito.Name = "lblDeposito";
             lblDeposito.Size = new Size(166, 39);
             lblDeposito.TabIndex = 59;

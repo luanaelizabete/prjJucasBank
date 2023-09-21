@@ -16,5 +16,10 @@ namespace TelaPagamento
         {
 
         }
+
+        private void lblVoltarDeposito_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

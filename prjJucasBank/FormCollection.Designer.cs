@@ -39,7 +39,7 @@
             // 
             Lstinfo.FormattingEnabled = true;
             Lstinfo.ItemHeight = 15;
-            Lstinfo.Location = new Point(46, 185);
+            Lstinfo.Location = new Point(30, 181);
             Lstinfo.Name = "Lstinfo";
             Lstinfo.Size = new Size(422, 244);
             Lstinfo.TabIndex = 10;

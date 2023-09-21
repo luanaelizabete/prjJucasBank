@@ -47,9 +47,9 @@
             pictureBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pictureBox2.BackColor = Color.Black;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(693, 127);
+            pictureBox2.Location = new Point(738, 114);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(315, 165);
+            pictureBox2.Size = new Size(282, 156);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 29;
             pictureBox2.TabStop = false;
@@ -141,6 +141,7 @@
             txtUsuarioLogin.Size = new Size(195, 31);
             txtUsuarioLogin.TabIndex = 31;
             txtUsuarioLogin.TextAlign = HorizontalAlignment.Center;
+            txtUsuarioLogin.TextChanged += txtUsuarioLogin_TextChanged;
             // 
             // telaLoginBanco
             // 

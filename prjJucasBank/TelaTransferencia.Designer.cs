@@ -65,6 +65,7 @@
             lblDepositoConfirmado.Size = new Size(293, 37);
             lblDepositoConfirmado.TabIndex = 63;
             lblDepositoConfirmado.Text = "Transferência realizada!";
+            lblDepositoConfirmado.Click += lblDepositoConfirmado_Click;
             // 
             // lblVoltarDeposito
             // 

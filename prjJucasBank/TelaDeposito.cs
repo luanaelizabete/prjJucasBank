@@ -77,6 +77,11 @@ namespace TelaDeposito
 
 
         }
+
+        private void lblDepositoConfirmado_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

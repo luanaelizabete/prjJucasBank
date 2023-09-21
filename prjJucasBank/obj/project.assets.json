@@ -1018,19 +1018,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lucas\\.nuget\\packages\\": {}
+    "C:\\Users\\luana.eoalima\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj",
+      "projectUniqueName": "C:\\Users\\luana.eoalima\\source\\repos\\luanaelizabete\\Nova pasta\\prjJucasBank\\prjJucasBank.csproj",
       "projectName": "prjJucasBank",
-      "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj",
-      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\prjJucasBank\\obj\\",
+      "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\luanaelizabete\\Nova pasta\\prjJucasBank\\prjJucasBank.csproj",
+      "packagesPath": "C:\\Users\\luana.eoalima\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\luana.eoalima\\source\\repos\\luanaelizabete\\Nova pasta\\prjJucasBank\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\luana.eoalima\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1044,8 +1044,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\prjJB\\prjJucasBank\\DTO\\DTO.csproj"
+            "C:\\Users\\luana.eoalima\\source\\repos\\luanaelizabete\\Nova pasta\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\luanaelizabete\\Nova pasta\\DTO\\DTO.csproj"
             }
           }
         }
@@ -1088,7 +1088,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -68,6 +68,7 @@
             lblDepositoConfirmado.Size = new Size(214, 37);
             lblDepositoConfirmado.TabIndex = 63;
             lblDepositoConfirmado.Text = "Saque realizado!";
+            lblDepositoConfirmado.Click += lblDepositoConfirmado_Click;
             // 
             // lblVoltarDeposito
             // 
@@ -79,6 +80,7 @@
             lblVoltarDeposito.TabIndex = 58;
             lblVoltarDeposito.Text = "Voltar";
             lblVoltarDeposito.UseVisualStyleBackColor = false;
+            lblVoltarDeposito.Click += lblVoltarDeposito_Click;
             // 
             // btConfirmarSaque
             // 

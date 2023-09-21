@@ -21,5 +21,10 @@ namespace prjJucasBank
         {
 
         }
+
+        private void btAlterarConta_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
