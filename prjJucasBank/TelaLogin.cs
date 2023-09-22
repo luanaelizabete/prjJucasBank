@@ -37,7 +37,6 @@ namespace prjJucasBank
             if (this.menu.Items[0].Text == "Login")
             {
                 telaLoginBanco telaLoginBanco = new telaLoginBanco();
-
                 telaLoginBanco.Show();
             }
             else

@@ -117,32 +117,31 @@ namespace prjJucasBank
                     conexao.Close();
 
                     Form TelaLogin = Application.OpenForms["TelaLogin"];
-
-                    MenuStrip menuPrincipal = (MenuStrip)TelaLogin.Controls[0];
-                    menuPrincipal.Items[0].Text = "Logout";
-                    menuPrincipal.Items[1].Visible = false;
-                    menuPrincipal.Items[2].Visible = true;
-                    menuPrincipal.Items[3].Visible = true;
-                    menuPrincipal.Items[4].Visible = true;
-                    menuPrincipal.Items[5].Visible = true;
-                    menuPrincipal.Items[5].Text = UsuarioLogado.Nome;
-
-                    if (UsuarioLogado.Contas.Count == 0)
+                    using (MenuStrip menuPrincipal = (MenuStrip)TelaLogin.Controls[0])
                     {
-                        menuPrincipal.Items[3].Text = "não há contas";
-                        MessageBox.Show($"Olá,{UsuarioLogado.Nome}");
+                        menuPrincipal.Items[0].Text = "Logout";
+                        menuPrincipal.Items[1].Visible = false;
+                        menuPrincipal.Items[2].Visible = true;
+                        menuPrincipal.Items[3].Visible = true;
+                        menuPrincipal.Items[4].Visible = true;
+                        menuPrincipal.Items[5].Visible = true;
+                        menuPrincipal.Items[5].Text = UsuarioLogado.Nome;
+                        menuPrincipal.Items[6].Visible = true;
+
+
+                        if (UsuarioLogado.Contas.Count == 0)
+                        {
+                            menuPrincipal.Items[4].Text = "não há contas";
+                            MessageBox.Show($"Olá,{UsuarioLogado.Nome}");
+                        }
+                        else
+                        {
+                            menuPrincipal.Items[4].Text = $"Conta: {UsuarioLogado.Contas[0].IdCliente.ToString()}";
+
+                            MessageBox.Show($"Olá,{UsuarioLogado.Nome}!\n" +
+                                $"Você foi logado na conta {UsuarioLogado.Contas[0].IdCliente.ToString()}\n");
+                        }
                     }
-                    else
-                    {
-                        menuPrincipal.Items[3].Text = $"Conta: {UsuarioLogado.Contas[0].IdCliente.ToString()}";
-
-                        MessageBox.Show($"Olá,{UsuarioLogado.Nome}!\n" +
-                            $"Você foi logado na conta {UsuarioLogado.Contas[0].IdCliente.ToString()}\n" +
-                            $"Para trocar de conta, utilize o menu Conta\\Alternar Conta");
-                    }
-
-
-
                 }
                 else
                 {

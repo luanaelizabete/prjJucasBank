@@ -50,14 +50,14 @@ namespace prjJucasBank
 
                     conta.Saldo = conta.Saldo - Convert.ToDecimal(txtValorDeposito.Text);
 
-                    //Criando uma conexão
+                    
                     SqlConnection conexao =
                                new SqlConnection(ConfigurationManager.ConnectionStrings["prjJucasBank.Properties.Settings.strConexao"].ToString());
 
-                    //Criando um comando
+                
                     SqlCommand cmd = new SqlCommand();
 
-                    //criando texto do comando, tipo e conexão que será usada
+                    
                     cmd.CommandText = "pi_Conta";
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Connection = conexao;

@@ -29,42 +29,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaLoginBanco));
-            pictureBox2 = new PictureBox();
-            pictureBox1 = new PictureBox();
             btnEsqueceuSenha = new Button();
             btnCriarCadastro = new Button();
             lblUsuario = new Label();
             btnEntrar = new Button();
             txtSenhaLogin = new TextBox();
             txtUsuarioLogin = new TextBox();
+            pictureBox2 = new PictureBox();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.AccessibleRole = AccessibleRole.None;
-            pictureBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pictureBox2.BackColor = Color.Black;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(738, 114);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(282, 156);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 29;
-            pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pictureBox1.BackColor = SystemColors.MenuText;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(612, -10);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(627, 536);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 30;
-            pictureBox1.TabStop = false;
             // 
             // btnEsqueceuSenha
             // 
@@ -143,39 +117,49 @@
             txtUsuarioLogin.TextAlign = HorizontalAlignment.Center;
             txtUsuarioLogin.TextChanged += txtUsuarioLogin_TextChanged;
             // 
+            // pictureBox2
+            // 
+            pictureBox2.AccessibleRole = AccessibleRole.None;
+            pictureBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            pictureBox2.BackColor = Color.Black;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(831, 42);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(261, 134);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 51;
+            pictureBox2.TabStop = false;
+            // 
             // telaLoginBanco
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.DarkOrchid;
+            BackColor = Color.Black;
             ClientSize = new Size(1169, 507);
+            Controls.Add(pictureBox2);
             Controls.Add(btnEsqueceuSenha);
             Controls.Add(btnCriarCadastro);
             Controls.Add(lblUsuario);
             Controls.Add(btnEntrar);
             Controls.Add(txtSenhaLogin);
             Controls.Add(txtUsuarioLogin);
-            Controls.Add(pictureBox2);
-            Controls.Add(pictureBox1);
             Font = new Font("Lucida Bright", 9F, FontStyle.Regular, GraphicsUnit.Point);
             Name = "telaLoginBanco";
             Text = "TelaLoginBanco";
             Load += TelaLoginBanco_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private PictureBox pictureBox2;
-        private PictureBox pictureBox1;
         private Button btnEsqueceuSenha;
         private Button btnCriarCadastro;
         private Label lblUsuario;
         private Button btnEntrar;
         private TextBox txtSenhaLogin;
         private TextBox txtUsuarioLogin;
+        private PictureBox pictureBox2;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

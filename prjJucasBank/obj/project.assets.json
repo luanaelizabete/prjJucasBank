@@ -1018,24 +1018,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\luana.eoalima\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\luana.eoalima\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luana.eoalima\\source\\repos\\lu\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj",
+      "projectUniqueName": "C:\\Users\\luana.eoalima\\source\\repos\\22.09\\prjJucasBank\\prjJucasBank.csproj",
       "projectName": "prjJucasBank",
-      "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\lu\\prjJucasBank\\prjJucasBank\\prjJucasBank.csproj",
+      "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\22.09\\prjJucasBank\\prjJucasBank.csproj",
       "packagesPath": "C:\\Users\\luana.eoalima\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luana.eoalima\\source\\repos\\lu\\prjJucasBank\\prjJucasBank\\obj\\",
+      "outputPath": "C:\\Users\\luana.eoalima\\source\\repos\\22.09\\prjJucasBank\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\luana.eoalima\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1049,8 +1044,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\luana.eoalima\\source\\repos\\lu\\prjJucasBank\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\lu\\prjJucasBank\\DTO\\DTO.csproj"
+            "C:\\Users\\luana.eoalima\\source\\repos\\22.09\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\22.09\\DTO\\DTO.csproj"
             }
           }
         }
@@ -1093,7 +1088,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

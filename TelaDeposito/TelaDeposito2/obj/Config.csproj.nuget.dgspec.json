@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luana.eoalima\\source\\repos\\lu\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\Config.csproj": {}
+    "C:\\Users\\luana.eoalima\\source\\repos\\22.09\\TelaDeposito\\TelaDeposito2\\Config.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luana.eoalima\\source\\repos\\lu\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\Config.csproj": {
+    "C:\\Users\\luana.eoalima\\source\\repos\\22.09\\TelaDeposito\\TelaDeposito2\\Config.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luana.eoalima\\source\\repos\\lu\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\Config.csproj",
+        "projectUniqueName": "C:\\Users\\luana.eoalima\\source\\repos\\22.09\\TelaDeposito\\TelaDeposito2\\Config.csproj",
         "projectName": "Config",
-        "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\lu\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\Config.csproj",
+        "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\22.09\\TelaDeposito\\TelaDeposito2\\Config.csproj",
         "packagesPath": "C:\\Users\\luana.eoalima\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luana.eoalima\\source\\repos\\lu\\prjJucasBank\\TelaDeposito\\TelaDeposito2\\obj\\",
+        "outputPath": "C:\\Users\\luana.eoalima\\source\\repos\\22.09\\TelaDeposito\\TelaDeposito2\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\luana.eoalima\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
