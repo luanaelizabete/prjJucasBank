@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luana.eoalima\\source\\repos\\22.09\\DTO\\DTO.csproj",
+      "projectUniqueName": "C:\\Users\\luana.eoalima\\source\\repos\\Nova pasta (3)\\DTO\\DTO.csproj",
       "projectName": "DTO",
-      "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\22.09\\DTO\\DTO.csproj",
+      "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\Nova pasta (3)\\DTO\\DTO.csproj",
       "packagesPath": "C:\\Users\\luana.eoalima\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luana.eoalima\\source\\repos\\22.09\\DTO\\obj\\",
+      "outputPath": "C:\\Users\\luana.eoalima\\source\\repos\\Nova pasta (3)\\DTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luana.eoalima\\AppData\\Roaming\\NuGet\\NuGet.Config",

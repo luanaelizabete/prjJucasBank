@@ -51,7 +51,7 @@
             // 
             // menu
             // 
-            menu.Items.AddRange(new ToolStripItem[] { loginToolStripMenuItem, cadastroToolStripMenuItem, operaçõesToolStripMenuItem, contaToolStripMenuItem, extratoToolStripMenuItem, nomeToolStripMenuItem, configuraçõesToolStripMenuItem });
+            menu.Items.AddRange(new ToolStripItem[] { loginToolStripMenuItem, cadastroToolStripMenuItem, contaToolStripMenuItem, operaçõesToolStripMenuItem, extratoToolStripMenuItem, nomeToolStripMenuItem, configuraçõesToolStripMenuItem });
             menu.Location = new Point(0, 0);
             menu.Name = "menu";
             menu.Size = new Size(995, 24);
@@ -137,28 +137,28 @@
             // criarContaToolStripMenuItem
             // 
             criarContaToolStripMenuItem.Name = "criarContaToolStripMenuItem";
-            criarContaToolStripMenuItem.Size = new Size(180, 22);
+            criarContaToolStripMenuItem.Size = new Size(145, 22);
             criarContaToolStripMenuItem.Text = "Criar Conta";
             criarContaToolStripMenuItem.Click += criarContaToolStripMenuItem_Click;
             // 
             // alterarContaToolStripMenuItem
             // 
             alterarContaToolStripMenuItem.Name = "alterarContaToolStripMenuItem";
-            alterarContaToolStripMenuItem.Size = new Size(180, 22);
+            alterarContaToolStripMenuItem.Size = new Size(145, 22);
             alterarContaToolStripMenuItem.Text = "Alterar Conta";
             alterarContaToolStripMenuItem.Click += alterarContaToolStripMenuItem_Click;
             // 
             // alterarDadosToolStripMenuItem
             // 
             alterarDadosToolStripMenuItem.Name = "alterarDadosToolStripMenuItem";
-            alterarDadosToolStripMenuItem.Size = new Size(180, 22);
+            alterarDadosToolStripMenuItem.Size = new Size(145, 22);
             alterarDadosToolStripMenuItem.Text = "Alterar Dados";
             alterarDadosToolStripMenuItem.Click += alterarDadosToolStripMenuItem_Click;
             // 
             // alterarSenhaToolStripMenuItem
             // 
             alterarSenhaToolStripMenuItem.Name = "alterarSenhaToolStripMenuItem";
-            alterarSenhaToolStripMenuItem.Size = new Size(180, 22);
+            alterarSenhaToolStripMenuItem.Size = new Size(145, 22);
             alterarSenhaToolStripMenuItem.Text = "Alterar Senha";
             alterarSenhaToolStripMenuItem.Click += alterarSenhaToolStripMenuItem_Click;
             // 

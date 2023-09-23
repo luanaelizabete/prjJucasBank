@@ -67,3 +67,15 @@ C:\Users\luana.eoalima\source\repos\22.09\DTO\obj\Debug\net6.0\DTO.dll
 C:\Users\luana.eoalima\source\repos\22.09\DTO\obj\Debug\net6.0\refint\DTO.dll
 C:\Users\luana.eoalima\source\repos\22.09\DTO\obj\Debug\net6.0\DTO.pdb
 C:\Users\luana.eoalima\source\repos\22.09\DTO\obj\Debug\net6.0\ref\DTO.dll
+C:\Users\luana.eoalima\source\repos\Nova pasta (3)\DTO\bin\Debug\net6.0\DTO.deps.json
+C:\Users\luana.eoalima\source\repos\Nova pasta (3)\DTO\bin\Debug\net6.0\DTO.dll
+C:\Users\luana.eoalima\source\repos\Nova pasta (3)\DTO\bin\Debug\net6.0\DTO.pdb
+C:\Users\luana.eoalima\source\repos\Nova pasta (3)\DTO\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+C:\Users\luana.eoalima\source\repos\Nova pasta (3)\DTO\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luana.eoalima\source\repos\Nova pasta (3)\DTO\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+C:\Users\luana.eoalima\source\repos\Nova pasta (3)\DTO\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+C:\Users\luana.eoalima\source\repos\Nova pasta (3)\DTO\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\luana.eoalima\source\repos\Nova pasta (3)\DTO\obj\Debug\net6.0\DTO.dll
+C:\Users\luana.eoalima\source\repos\Nova pasta (3)\DTO\obj\Debug\net6.0\refint\DTO.dll
+C:\Users\luana.eoalima\source\repos\Nova pasta (3)\DTO\obj\Debug\net6.0\DTO.pdb
+C:\Users\luana.eoalima\source\repos\Nova pasta (3)\DTO\obj\Debug\net6.0\ref\DTO.dll

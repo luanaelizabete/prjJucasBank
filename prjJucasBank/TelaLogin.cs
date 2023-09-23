@@ -25,7 +25,7 @@ namespace prjJucasBank
 
         private void cadastroToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var TelaLogin = new telaLoginBanco();
+            var TelaLogin = new TelaLoginBanco();
 
             TelaCadastro telaCadastro = new TelaCadastro();
 
@@ -34,9 +34,12 @@ namespace prjJucasBank
 
         private void loginToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            var TelaLogin = new TelaLoginBanco();
+
             if (this.menu.Items[0].Text == "Login")
             {
-                telaLoginBanco telaLoginBanco = new telaLoginBanco();
+                TelaLoginBanco telaLoginBanco = new TelaLoginBanco();
+              
                 telaLoginBanco.Show();
             }
             else

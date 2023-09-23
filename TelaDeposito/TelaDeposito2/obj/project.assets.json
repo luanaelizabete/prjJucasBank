@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luana.eoalima\\source\\repos\\22.09\\TelaDeposito\\TelaDeposito2\\Config.csproj",
+      "projectUniqueName": "C:\\Users\\luana.eoalima\\source\\repos\\Nova pasta (3)\\TelaDeposito\\TelaDeposito2\\Config.csproj",
       "projectName": "Config",
-      "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\22.09\\TelaDeposito\\TelaDeposito2\\Config.csproj",
+      "projectPath": "C:\\Users\\luana.eoalima\\source\\repos\\Nova pasta (3)\\TelaDeposito\\TelaDeposito2\\Config.csproj",
       "packagesPath": "C:\\Users\\luana.eoalima\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luana.eoalima\\source\\repos\\22.09\\TelaDeposito\\TelaDeposito2\\obj\\",
+      "outputPath": "C:\\Users\\luana.eoalima\\source\\repos\\Nova pasta (3)\\TelaDeposito\\TelaDeposito2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luana.eoalima\\AppData\\Roaming\\NuGet\\NuGet.Config",

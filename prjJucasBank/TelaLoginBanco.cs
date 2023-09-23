@@ -1,5 +1,4 @@
 ﻿using DTO;
-using prjJucasBank;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,25 +13,22 @@ using System.Windows.Forms;
 
 namespace prjJucasBank
 {
-    public partial class telaLoginBanco : Form
+    public partial class TelaLoginBanco : Form
     {
-        public telaLoginBanco()
+        public TelaLoginBanco()
         {
             InitializeComponent();
         }
 
-        private void TelaLoginBanco_Load(object sender, EventArgs e)
+        private void caixaLogin_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void Senha_Click(object sender, EventArgs e)
+        private void BotaoEntrar_Click(object sender, EventArgs e)
         {
+            
 
-        }
-
-        private void btnEntrar_Click(object sender, EventArgs e)
-        {
             try
             {
                 SqlConnection conexao =
@@ -117,32 +113,35 @@ namespace prjJucasBank
                     conexao.Close();
 
                     Form TelaLogin = Application.OpenForms["TelaLogin"];
-                    using (MenuStrip menuPrincipal = (MenuStrip)TelaLogin.Controls[0])
-                    {
-                        menuPrincipal.Items[0].Text = "Logout";
-                        menuPrincipal.Items[1].Visible = false;
-                        menuPrincipal.Items[2].Visible = true;
-                        menuPrincipal.Items[3].Visible = true;
-                        menuPrincipal.Items[4].Visible = true;
-                        menuPrincipal.Items[5].Visible = true;
-                        menuPrincipal.Items[5].Text = UsuarioLogado.Nome;
-                        menuPrincipal.Items[6].Visible = true;
+                    MenuStrip menuPrincipal = (MenuStrip)TelaLogin.Controls[0];
+                    menuPrincipal.Items[0].Text = "Logout";
+                    menuPrincipal.Items[1].Visible = false;
+                    menuPrincipal.Items[2].Visible = true;
+                    menuPrincipal.Items[3].Visible = true;
+                    menuPrincipal.Items[4].Visible = true;
+                    menuPrincipal.Items[5].Visible = true;
+                    menuPrincipal.Items[5].Text = UsuarioLogado.Nome;
+                    menuPrincipal.Items[6].Visible = true;
 
 
                         if (UsuarioLogado.Contas.Count == 0)
                         {
-                            menuPrincipal.Items[4].Text = "não há contas";
+                            menuPrincipal.Items[2].Text = "não há contas";
                             MessageBox.Show($"Olá,{UsuarioLogado.Nome}");
+                            menuPrincipal.Items[3].Visible = false;
+                            menuPrincipal.Items[4].Visible = false;
                         }
                         else
                         {
-                            menuPrincipal.Items[4].Text = $"Conta: {UsuarioLogado.Contas[0].IdCliente.ToString()}";
+                            menuPrincipal.Items[3].Visible = false;
+                            menuPrincipal.Items[4].Visible = false;
+                            menuPrincipal.Items[2].Text = $"Conta: {UsuarioLogado.Contas[0].IdCliente.ToString()}";
 
                             MessageBox.Show($"Olá,{UsuarioLogado.Nome}!\n" +
                                 $"Você foi logado na conta {UsuarioLogado.Contas[0].IdCliente.ToString()}\n");
                         }
                     }
-                }
+                
                 else
                 {
                     MessageBox.Show("Usuário ou senha incorretos.");
@@ -162,9 +161,16 @@ namespace prjJucasBank
             TelaLoginBanco.Show();
         }
 
-        private void txtUsuarioLogin_TextChanged(object sender, EventArgs e)
+        private void btnEsqueceuSenha_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TelaLoginBanco_Load(object sender, EventArgs e)
         {
 
         }
     }
 }
+
+

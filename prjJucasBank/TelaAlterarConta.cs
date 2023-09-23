@@ -58,7 +58,7 @@ namespace prjJucasBank
 
                     Form telaLogin = Application.OpenForms["TelaLogin"];
                     MenuStrip menuStrip = (MenuStrip)telaLogin.Controls[0];
-                    menuStrip.Items[9].Text = $"Conta: {UsuarioLogado.ContaLogada}";
+                    menuStrip.Items[2].Text = $"Conta: {UsuarioLogado.ContaLogada}";
 
                     telaLogin.Show();
                     this.Close();

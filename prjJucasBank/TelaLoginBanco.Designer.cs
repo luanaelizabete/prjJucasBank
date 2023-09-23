@@ -1,6 +1,6 @@
 ﻿namespace prjJucasBank
 {
-    partial class telaLoginBanco
+    partial class TelaLoginBanco
     {
         /// <summary>
         /// Required designer variable.
@@ -28,124 +28,107 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(telaLoginBanco));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaLoginBanco));
+            txtUsuarioLogin = new TextBox();
+            txtSenhaLogin = new TextBox();
+            BotaoEntrar = new Button();
             btnEsqueceuSenha = new Button();
             btnCriarCadastro = new Button();
-            lblUsuario = new Label();
-            btnEntrar = new Button();
-            txtSenhaLogin = new TextBox();
-            txtUsuarioLogin = new TextBox();
             pictureBox2 = new PictureBox();
-            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
+            // 
+            // txtUsuarioLogin
+            // 
+            txtUsuarioLogin.BackColor = Color.White;
+            txtUsuarioLogin.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtUsuarioLogin.ForeColor = Color.Black;
+            txtUsuarioLogin.Location = new Point(132, 82);
+            txtUsuarioLogin.MaxLength = 11;
+            txtUsuarioLogin.Name = "txtUsuarioLogin";
+            txtUsuarioLogin.PlaceholderText = "000.000.000-00";
+            txtUsuarioLogin.Size = new Size(195, 36);
+            txtUsuarioLogin.TabIndex = 1;
+            txtUsuarioLogin.TextAlign = HorizontalAlignment.Center;
+            txtUsuarioLogin.TextChanged += caixaLogin_TextChanged;
+            // 
+            // txtSenhaLogin
+            // 
+            txtSenhaLogin.BackColor = Color.White;
+            txtSenhaLogin.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            txtSenhaLogin.Location = new Point(132, 146);
+            txtSenhaLogin.MaxLength = 6;
+            txtSenhaLogin.Name = "txtSenhaLogin";
+            txtSenhaLogin.PlaceholderText = "Insira sua senha";
+            txtSenhaLogin.Size = new Size(195, 36);
+            txtSenhaLogin.TabIndex = 2;
+            txtSenhaLogin.TextAlign = HorizontalAlignment.Center;
+            txtSenhaLogin.UseSystemPasswordChar = true;
+            // 
+            // BotaoEntrar
+            // 
+            BotaoEntrar.BackColor = Color.White;
+            BotaoEntrar.Cursor = Cursors.Hand;
+            BotaoEntrar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            BotaoEntrar.ForeColor = Color.Black;
+            BotaoEntrar.Location = new Point(180, 210);
+            BotaoEntrar.Name = "BotaoEntrar";
+            BotaoEntrar.Size = new Size(96, 34);
+            BotaoEntrar.TabIndex = 3;
+            BotaoEntrar.Text = "Entrar";
+            BotaoEntrar.UseVisualStyleBackColor = false;
+            BotaoEntrar.Click += BotaoEntrar_Click;
             // 
             // btnEsqueceuSenha
             // 
             btnEsqueceuSenha.BackColor = Color.White;
             btnEsqueceuSenha.Font = new Font("Lucida Bright", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnEsqueceuSenha.ForeColor = Color.Black;
-            btnEsqueceuSenha.Location = new Point(120, 258);
+            btnEsqueceuSenha.Location = new Point(106, 386);
             btnEsqueceuSenha.Name = "btnEsqueceuSenha";
             btnEsqueceuSenha.Size = new Size(221, 44);
-            btnEsqueceuSenha.TabIndex = 36;
+            btnEsqueceuSenha.TabIndex = 41;
             btnEsqueceuSenha.Text = "Esqueci minha senha";
             btnEsqueceuSenha.UseVisualStyleBackColor = false;
+            btnEsqueceuSenha.Click += btnEsqueceuSenha_Click;
             // 
             // btnCriarCadastro
             // 
             btnCriarCadastro.BackColor = Color.White;
             btnCriarCadastro.Font = new Font("Lucida Bright", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnCriarCadastro.Location = new Point(130, 380);
+            btnCriarCadastro.Location = new Point(118, 302);
             btnCriarCadastro.Name = "btnCriarCadastro";
             btnCriarCadastro.Size = new Size(195, 46);
-            btnCriarCadastro.TabIndex = 34;
+            btnCriarCadastro.TabIndex = 42;
             btnCriarCadastro.Text = "Criar uma conta";
             btnCriarCadastro.UseVisualStyleBackColor = false;
             btnCriarCadastro.Click += btnCriarCadastro_Click;
             // 
-            // lblUsuario
-            // 
-            lblUsuario.AutoSize = true;
-            lblUsuario.FlatStyle = FlatStyle.Flat;
-            lblUsuario.Font = new Font("Lucida Bright", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            lblUsuario.ForeColor = Color.White;
-            lblUsuario.Location = new Point(130, 88);
-            lblUsuario.Name = "lblUsuario";
-            lblUsuario.Size = new Size(87, 23);
-            lblUsuario.TabIndex = 35;
-            lblUsuario.Text = "Usuário";
-            // 
-            // btnEntrar
-            // 
-            btnEntrar.BackColor = Color.White;
-            btnEntrar.Cursor = Cursors.Hand;
-            btnEntrar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            btnEntrar.ForeColor = Color.Black;
-            btnEntrar.Location = new Point(181, 218);
-            btnEntrar.Name = "btnEntrar";
-            btnEntrar.Size = new Size(96, 34);
-            btnEntrar.TabIndex = 33;
-            btnEntrar.Text = "Entrar";
-            btnEntrar.UseVisualStyleBackColor = false;
-            btnEntrar.Click += btnEntrar_Click;
-            // 
-            // txtSenhaLogin
-            // 
-            txtSenhaLogin.BackColor = Color.White;
-            txtSenhaLogin.Font = new Font("Lucida Bright", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            txtSenhaLogin.Location = new Point(130, 163);
-            txtSenhaLogin.MaxLength = 6;
-            txtSenhaLogin.Name = "txtSenhaLogin";
-            txtSenhaLogin.PlaceholderText = "Insira sua senha";
-            txtSenhaLogin.Size = new Size(195, 31);
-            txtSenhaLogin.TabIndex = 32;
-            txtSenhaLogin.TextAlign = HorizontalAlignment.Center;
-            txtSenhaLogin.UseSystemPasswordChar = true;
-            // 
-            // txtUsuarioLogin
-            // 
-            txtUsuarioLogin.BackColor = Color.White;
-            txtUsuarioLogin.Font = new Font("Lucida Bright", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            txtUsuarioLogin.ForeColor = Color.Black;
-            txtUsuarioLogin.Location = new Point(130, 114);
-            txtUsuarioLogin.MaxLength = 11;
-            txtUsuarioLogin.Name = "txtUsuarioLogin";
-            txtUsuarioLogin.PlaceholderText = "000.000.000-00";
-            txtUsuarioLogin.Size = new Size(195, 31);
-            txtUsuarioLogin.TabIndex = 31;
-            txtUsuarioLogin.TextAlign = HorizontalAlignment.Center;
-            txtUsuarioLogin.TextChanged += txtUsuarioLogin_TextChanged;
-            // 
             // pictureBox2
             // 
-            pictureBox2.AccessibleRole = AccessibleRole.None;
             pictureBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            pictureBox2.BackColor = Color.Black;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(831, 42);
+            pictureBox2.Location = new Point(818, 57);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(261, 134);
+            pictureBox2.Size = new Size(290, 145);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 51;
+            pictureBox2.TabIndex = 50;
             pictureBox2.TabStop = false;
             // 
-            // telaLoginBanco
+            // TelaLoginBanco
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Black;
+            BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(1169, 507);
             Controls.Add(pictureBox2);
-            Controls.Add(btnEsqueceuSenha);
             Controls.Add(btnCriarCadastro);
-            Controls.Add(lblUsuario);
-            Controls.Add(btnEntrar);
+            Controls.Add(btnEsqueceuSenha);
+            Controls.Add(BotaoEntrar);
             Controls.Add(txtSenhaLogin);
             Controls.Add(txtUsuarioLogin);
-            Font = new Font("Lucida Bright", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            Name = "telaLoginBanco";
-            Text = "TelaLoginBanco";
+            Name = "TelaLoginBanco";
+            Text = "TelaLoginB";
             Load += TelaLoginBanco_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
@@ -153,13 +136,12 @@
         }
 
         #endregion
+
+        private TextBox txtUsuarioLogin;
+        private TextBox txtSenhaLogin;
+        private Button BotaoEntrar;
         private Button btnEsqueceuSenha;
         private Button btnCriarCadastro;
-        private Label lblUsuario;
-        private Button btnEntrar;
-        private TextBox txtSenhaLogin;
-        private TextBox txtUsuarioLogin;
         private PictureBox pictureBox2;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

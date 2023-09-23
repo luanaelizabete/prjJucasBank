@@ -84,7 +84,7 @@ namespace prjJucasBank
                         menuprincipal.Items[2].Visible = true;
                         menuprincipal.Items[6].Visible = true; 
                     }
-                    menuprincipal.Items[3].Text = $"Conta: {UsuarioLogado.ContaLogada.ToString()}";
+                    menuprincipal.Items[2].Text = $"Conta: {UsuarioLogado.ContaLogada.ToString()}";
 
                     UIClear.CleanTxtBoxes(this);
                     

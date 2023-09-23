@@ -48,9 +48,9 @@
             pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pictureBox1.BackColor = Color.Black;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(97, 26);
+            pictureBox1.Location = new Point(39, 24);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(146, 83);
+            pictureBox1.Size = new Size(142, 79);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 64;
             pictureBox1.TabStop = false;
@@ -151,7 +151,7 @@
             lblDeposito.AutoSize = true;
             lblDeposito.Font = new Font("Lucida Bright", 25.25F, FontStyle.Regular, GraphicsUnit.Point);
             lblDeposito.ForeColor = Color.DarkOrchid;
-            lblDeposito.Location = new Point(265, 51);
+            lblDeposito.Location = new Point(207, 51);
             lblDeposito.Name = "lblDeposito";
             lblDeposito.Size = new Size(242, 39);
             lblDeposito.TabIndex = 59;
